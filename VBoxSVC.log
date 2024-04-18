@@ -1,0 +1,168 @@
+00:00:00.046698 main     VirtualBox COM Server 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.046707 main     Log opened 2024-04-06T03:29:56.632169900Z
+00:00:00.046711 main     Build Type: release
+00:00:00.046737 main     OS Product: Windows 10
+00:00:00.046740 main     OS Release: 10.0.19045
+00:00:00.046741 main     OS Service Pack: 
+00:00:00.245104 main     DMI Product Name: HP 200 G3 AiO
+00:00:00.256457 main     DMI Product Version:  
+00:00:00.256468 main     Firmware type: UEFI
+00:00:00.257317 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.265139 main     Host RAM: 3952MB (3.8GB) total, 1158MB available
+00:00:00.265149 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.265150 main     Process ID: 7192
+00:00:00.265151 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.446582          VirtualBox: object creation starts
+00:00:00.448370          Home directory: 'C:\Users\Talaba\.VirtualBox'
+00:00:00.448926          Installed Drivers:
+00:00:00.485658            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.6.5176)
+00:00:00.510504            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.6.5176)
+00:00:00.575851            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.6.5176)
+00:00:00.601794            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.6.5176)
+00:00:00.641217          Loading settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.663508          usbLibGetDevices: Starting USB device enumeration
+00:00:00.673516          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&24c770f3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.679199          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.683135          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb65d)
+00:00:00.993399          HostDnsMonitor: initializing
+00:00:01.001513          HostDnsMonitor: updating information
+00:00:01.002250          HostDnsMonitor: old information
+00:00:01.002251            no server entries
+00:00:01.002252            no domain set
+00:00:01.002253            no search string entries
+00:00:01.002253          HostDnsMonitor: new information
+00:00:01.002253            server 1: 10.42.4.1
+00:00:01.002254            no domain set
+00:00:01.002254            no search string entries
+00:00:01.090863          VD: VDInit finished with VINF_SUCCESS
+00:00:01.625700          Loading settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:01.707456          OCI: Local config file 'C:\Users\Talaba\.VirtualBox\oci_config' does not exist
+00:00:01.707687          OCI: Original config file 'C:\Users\Talaba\.oci\config' does not exist
+00:00:01.707689          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:01.708420          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:01.713730          VirtualBox: object created
+00:00:02.182113          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.207979          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:00:02.208219          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.227263          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:00:02.227517          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.249808          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:00:11.086753          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:19.612300          Launched VM: 186384576 pid: 5948 (0x173c) frontend: GUI/Qt name: linux
+00:00:19.661464          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:27.486764          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:28.085702          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:00:31.526222          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:32.309297          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:32.312710          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:32.362170          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:32.367170          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:32.376519          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:34.828288          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:34.915302          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:35.220637          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:35.253057          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:35.264203          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:37.671152          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:37.691692          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:37.702945          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:38.017660          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:38.057547          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:38.068401          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:40.094442          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:40.173857          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:40.185079          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:49.046281          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:00:49.184609          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:00:49.257666          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:26.624233          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:01:26.681416          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:01:26.691983          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:17.277071 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:17.286756 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&24c770f3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:02:17.289325 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:09:00.439681          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:09:00.678648          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:09:02.367269          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:09:04.110221          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:09:04.341448          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:09:04.361329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:09:33.068162          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:09:37.227440          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:09:57.034915          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:09:57.331352          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:09:57.729861          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:09:58.048918 SaveState Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:09:58.115133 SaveState Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:09:58.249171          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:09:58.927171          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:10:00.972364          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:10:21.228059          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:10:21.429079          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:10:21.430073          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:10:21.490869          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:10:21.491379          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:10:21.550847          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+00:10:41.498404          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:12:24.145010          Launched VM: 184253248 pid: 3912 (0xf48) frontend: GUI/Qt name: linux
+00:12:24.157284          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:12:24.404763          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:12:32.366058          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:12:32.383048          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:12:33.048488          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:12:37.229652          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:12:37.300272          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:12:37.347355          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:12:37.370260          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:12:37.419878          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:12:37.430450          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:12:39.992769          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:12:50.221030          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+00:12:50.648196          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+00:12:51.449069          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:12:51.480514          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:42.359140          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+01:05:42.854609          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+01:05:46.267801          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+01:05:46.385696          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+01:05:47.982469          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:48.618838          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:48.719718          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+01:05:48.819389          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+01:05:48.833765          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:48.871559          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:52.796269          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+01:05:52.843526          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+01:05:52.867587          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:52.867743          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:53.187262          Saving settings file "F:\Umarali\linux\linux.vbox" with version "1.19-windows"
+01:05:53.212255          Finished saving settings file "F:\Umarali\linux\linux.vbox"
+01:05:53.225144          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:53.226287          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:39.905230          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:10:40.048749          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:10:40.504743          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:40.510438          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:40.753372          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:10:40.793237          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:10:40.801770          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:40.809317          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:46.125349          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:10:46.174626          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:10:46.182334          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:46.203067          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:55.425203          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:10:55.451318          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:10:55.469503          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:55.481334          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:55.953383          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:10:55.973373          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:10:55.981252          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:55.987841          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:11:00.963760          Saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:11:00.989512          Finished saving settings file "C:\Users\Talaba\.VirtualBox\VirtualBox.xml"
+01:11:01.000410          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:11:01.014386          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:20:18.804090 main     WM_QUERYENDSESSION: shutdown (0x00000000)
+01:20:19.760550 main     VBoxSvc has active connections: bActivity = false, lock count = 2
+01:21:00.493728 main     WM_ENDSESSION: critical (TRUE/0x40000000)
